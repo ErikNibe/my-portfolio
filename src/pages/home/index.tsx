@@ -44,22 +44,25 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Hello, my name is Érik</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              I'm currently a{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                full stack developer
               </Text>{" "}
-              creating and{" "}
+              in training at{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                Kenzie Academy Brasil
               </Text>{" "}
-              projects
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              It was in college that I had my first contact with programming,
+              because until then I didn't know anything about this universe. I
+              was delighted with the way we can use it to solve problems and how
+              logic is applied. After graduating in Food Engineering from the
+              University of São Paulo (USP) I started a programming course to
+              become a full stack developer at Kenzie Academy.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
